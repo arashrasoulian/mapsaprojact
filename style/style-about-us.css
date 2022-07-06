@@ -1,0 +1,15 @@
+.about_title{
+    margin:80px;
+    text-align: right;
+    color: rgb(72, 5, 128);
+  }
+  .p_about{
+    text-align: center;
+    margin: 50px;
+    line-height: 140%;
+    font-size: 22px;
+  }
+  .yaran-world-text{
+    color: rgb(211, 19, 19);
+    font-size: 25px;
+  }

@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <link rel="stylesheet" href="/style/style-registery.css">
+        <link rel="stylesheet" href="/style/index_style.css">
+        <link rel="stylesheet" href="/style/bootstrap.css">
+        <link rel="stylesheet" href="/style/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="/style/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+<body>
+ 
+
+
+
+
+
+    <!-- ************nav-bar********* -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+    style="direction:rtl; " class="navbar-style">
+    <a class="navbar-brand" href="#" style="color:rgb(211, 19, 19) ;" 
+    class="navbar-name">
+  
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color:rgb(73, 5, 129)" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+            <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+        میوه فروشی یاران
+    </a>
+    <button 
+    class="navbar-toggler" 
+    type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" 
+    aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div style="text-align: right;" class="collapse navbar-collapse" 
+    id="navbarSupportedContent" >
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+        <a class="nav-link" href="/index-test.html" >
+        خانه
+        <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="register.html">باشگاه مشتریان</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a 
+        class="nav-link dropdown-toggle" 
+        href="#" id="navbarDropdown" 
+        role="button" data-toggle="dropdown" 
+        aria-haspopup="true" aria-expanded="false">
+        محصولات
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" 
+        >
+        <a class="dropdown-item" href="#" >میوه‌ها</a>
+        <a class="dropdown-item" href="#">سبزیجات</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">میوه‌های لوکس</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="abou_us.html">درباره ما</a>
+    </li>
+
+    <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" 
+        type="search" placeholder="جستجو" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">جستجو</button>
+    </form>
+    </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+
+
+
+    <!-- **********header*************8 -->
+
+<!-- 
+    <div class="container-header">
+
+        <img src="/image/fruits-banner.jpeg" alt="header-banner" class="header-banner">
+      
+      </div>  -->
+
+  
+
+
+
+
+
+
+
+
+          <!-- *********  registery form  ******************-->
+
+          
+        <form class="box_register" name="myForm" >
+
+            <input type="text" name="first_name" class="input_gender" placeholder="نام" style="direction: rtl"  required> :نام <br>
+            
+            <input type="text" name="family_name" class="input_gender" placeholder="نام خانوادگی"  style="direction: rtl" required> نام خانوادگی
+            <br>
+
+             جنسیت : 
+             <input type="radio" name="gender" class="input_gender" style="direction: rtl" value="F" required> زن
+             <input type="radio" name="gender" class="input_gender" style="direction: rtl" value="M" required> مرد
+             <input type="radio" name="gender" class="input_gender" style="direction: rtl" value="O" required> سایر
+             <br>
+
+        	 <input type="password" id="PassWord" tyle="direction: rtl" class="input_gender" placeholder="رمز عبور حاوی عدد و کاراکتر" required  > : رمز عبور<br>
+             
+             <select name="cities">
+                <option value="" >انتخاب کنید</option>
+
+                <option value="tabriz" >تبریز</option>
+                <option value="brojen">بروچن</option>
+                <option value="ghamsar">قمصر</option>
+
+            </select> 
+            
+            <span> : شهر محل سکونت </span>
+             <br>
+             <input  type="submit" class="input_gender" onclick="userCheckList()">
+             <input type="reset" class="input_gender">
+        </form>
+</div>
+
+
+
+
+  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
